@@ -1,0 +1,51 @@
+.Testimony {
+    
+}
+
+.PersonQuote {
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    margin: 32px auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    width: 640px;
+    min-height: 64px;
+}
+
+.PersonImage {
+    width: 128px;
+    border-radius: 50%;
+}
+
+.arrow-nav {
+    /* background-color: rgb(88, 88, 88); */
+    position: absolute;
+    left: 96px;
+    top: 240px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-box {
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    width: 48px;
+    height: 48px;
+    transition-duration: 350ms;
+}
+
+.arrow-box:hover {
+    transition-duration: 350ms;
+    background-color: rgba(26, 26, 26, 0.644);
+}
+
+.arrow {
+    color: whitesmoke;
+    margin: auto;
+    width: 24px;
+    height: 24px;
+}

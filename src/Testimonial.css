@@ -1,0 +1,14 @@
+.Testimonial {
+  /* display: flex; */
+    position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  padding-top: 64px;
+  width: 50vw;
+  height: 50vh;
+  background-color: whitesmoke;
+  border-radius: 16px;
+  -webkit-box-shadow: 3px 6px 55px -12px rgba(97, 97, 97, 0.38);
+  -moz-box-shadow: 3px 6px 55px -12px rgba(97, 97, 97, 0.38);
+  box-shadow: 3px 6px 55px -12px rgba(97, 97, 97, 0.38);
+}
