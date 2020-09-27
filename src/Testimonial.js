@@ -16,6 +16,7 @@ const Testimonial = ({ initPersons }) => {
     setPersons(newPersons);
   };
 
+
   const decrementPerson = (i) => {
     const newPersons = () => {
       if (i >= 0 && i < initPersons.length) {
@@ -29,7 +30,12 @@ const Testimonial = ({ initPersons }) => {
 
   return (
     <div className="Testimonial">
-      <Testimony key={persons.id} incrementPerson={incrementPerson} decrementPerson={decrementPerson} {...persons} />
+      <Testimony
+        key={persons.id}
+        incrementPerson={incrementPerson}
+        decrementPerson={decrementPerson}
+        {...persons}
+      />
     </div>
   );
 };

@@ -3,8 +3,8 @@ import * as FaIcons from "react-icons/fa";
 import "./Testimony.css";
 
 const Testimony = ({ id, name, image, quote, incrementPerson, decrementPerson }) => {
-  const addOne = () => incrementPerson(id++);
-  const subtractOne = () => decrementPerson(id--);
+  const addOne = () => incrementPerson(id + 1);
+  const subtractOne = () => decrementPerson(id - 1);
 
   return (
     <div className="Testimony">
